@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://ypvwytsck0.execute-api.us-east-1.amazonaws.com/dev/compare-yourself');
+xhr.open('POST', 'https://ypvwytsck0.execute-api.us-east-1.amazonaws.com/dev/compare-yourself');
 xhr.onreadystatechange = function(e){
     console.log(e.target.response);
 };
